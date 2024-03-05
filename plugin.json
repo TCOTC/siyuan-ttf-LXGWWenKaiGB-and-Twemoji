@@ -1,8 +1,8 @@
 {
-  "name": "siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji",
+  "name": "siyuan-ttf-LXGWWenKaiGB-and-Twemoji",
   "author": "TCOTC",
-  "url": "https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji",
-  "version": "0.1.0",
+  "url": "https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-and-Twemoji",
+  "version": "0.1.1",
   "backends": [
     "all"
   ],
@@ -41,7 +41,7 @@
     "中文",
     "Chinese",
     "Twitter",
-    "siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji",
+    "siyuan-ttf-LXGWWenKaiGB-and-Twemoji",
     "Twemoji",
     "Emoji",
     "emoji",

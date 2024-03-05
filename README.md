@@ -1,4 +1,4 @@
-[中文](https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji/blob/main/README_zh_CN.md)
+[中文](https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/blob/main/README_zh_CN.md)
 
 # SiYuan LXGW WenKai font and Twitter Emoji plugin
 

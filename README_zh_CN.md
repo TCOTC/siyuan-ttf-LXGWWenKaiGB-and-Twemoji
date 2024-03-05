@@ -1,4 +1,4 @@
-[English](https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji/blob/main/README.md)
+[English](https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/blob/main/README.md)
 
 # 思源笔记 霞鹜文楷字体和 Twitter Emoji 插件
 
