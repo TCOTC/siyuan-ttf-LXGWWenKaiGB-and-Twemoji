@@ -10,7 +10,7 @@ The emoji file comes from:[mozilla/twemoji-colr](https://github.com/mozilla/twem
 
 This font has been modified in accordance with the glyph standards of mainland China and is recommended for Chinese users only.
 
-This plugin may not be compatible with other fonts or Emoji plugins in the bazaar.
+This plugin may not be compatible with other fonts or Emoji plugins in the bazaar, please disable other fonts or Emoji plugins when using this plugin.
 
 ### Acknowledgments
 
