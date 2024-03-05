@@ -1,8 +1,8 @@
 {
-  "name": "siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji",
+  "name": "siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji",
   "author": "TCOTC",
-  "url": "https://github.com/TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji",
-  "version": "0.1.4",
+  "url": "https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji",
+  "version": "0.0.9",
   "backends": [
     "all"
   ],
@@ -10,12 +10,12 @@
     "all"
   ],
   "displayName": {
-    "default": "HarmonyOS Sans font and Twitter Emoji",
-    "zh_CN": "鸿蒙字体和 Twitter Emoji"
+    "default": "霞鹜文楷 font and Twitter Emoji【Chinese】",
+    "zh_CN": "霞鹜文楷字体和 Twitter Emoji"
   },
   "description": {
-    "default": "HarmonyOS Sans SC (font) & Twemoji (Twitter Emoji)",
-    "zh_CN": "HarmonyOS Sans SC (鸿蒙字体) & Twemoji (Twitter Emoji)"
+    "default": "【only Chinese】LXGW WenKai GB (font) & Twemoji (Twitter Emoji)",
+    "zh_CN": "LXGW WenKai GB (霞鹜文楷字体) & Twemoji (Twitter Emoji)"
   },
   "readme": {
     "default": "README.md",
@@ -33,13 +33,15 @@
     "font",
     "字体",
     "字",
-    "Harmony",
-    "HarmonyOS",
-    "鸿蒙",
-    "HarmonyOS_Sans_SC",
-    "font",
+    "楷",
+    "霞鹜",
+    "霞鹜文楷",
+    "LXGW WenKai GB",
+    "文楷",
+    "中文",
+    "Chinese",
     "Twitter",
-    "siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji",
+    "siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji",
     "Twemoji",
     "Emoji",
     "emoji",

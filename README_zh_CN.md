@@ -1,12 +1,14 @@
-[English](https://github.com/TCOTC/siyuan-plugin-ttf-HarmonyOS_Sans_SC/blob/main/README.md)
+[English](https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-Regular-and-Twemoji/blob/main/README.md)
 
-# 思源笔记 鸿蒙字体和 Twitter Emoji 插件
+# 思源笔记 霞鹜文楷字体和 Twitter Emoji 插件
 
-字体文件来自：[鸿蒙系统开发者文档](https://developer.harmonyos.com/cn/docs/design/des-guides/font-0000001157868583)
+字体文件来自：[lxgw/LxgwWenkaiGB](https://github.com/lxgw/LxgwWenkaiGB)
 
 Emoji 文件来自：[mozilla/twemoji-colr](https://github.com/mozilla/twemoji-colr)
 
 ### 注意
+
+本字体按照中国大陆的字形标准修改，仅建议中文使用者使用。
 
 本插件可能与集市中的其他字体或 Emoji 插件不兼容。
 
