@@ -1,7 +1,7 @@
 @font-face {
     font-family: "霞鹜文楷 GB";
     font-style: normal;
-    src: url("/plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKaiGB-Regular.ttf");
+    src: local("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKaiGB-Regular.woff");
 }
 
 @font-face {
@@ -9,7 +9,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("/plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/Twemoji.Mozilla.ttf");
+    src: local("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/Twemoji.Mozilla.ttf");
 }
 
 :root {
