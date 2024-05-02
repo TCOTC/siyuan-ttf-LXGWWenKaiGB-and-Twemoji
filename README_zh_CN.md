@@ -1,4 +1,4 @@
-> 注意：在 Windows11 系统下可能无法生效
+> 注意：在 Windows11 系统下可能会出现无法生效的情况
 
 [English](https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/blob/main/README.md)
 
