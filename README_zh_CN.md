@@ -1,12 +1,10 @@
-> 注意：在 Windows11 系统下可能会出现无法生效的情况
-
 [English](https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/blob/main/README.md)
 
 # 思源笔记 霞鹜文楷字体和 Twitter Emoji 插件
 
 字体文件来自：[lxgw/LxgwWenkaiGB](https://github.com/lxgw/LxgwWenkaiGB)，由 .ttf 格式转换为 .woff 与 .woff2 格式
 
-Emoji 文件来自：[mozilla/twemoji-colr](https://github.com/mozilla/twemoji-colr)
+Emoji 文件来自：[jdecked/twemoji](https://github.com/jdecked/twemoji)：https://artefacts.whynothugo.nl/twemoji.ttf
 
 ### 注意
 
@@ -17,6 +15,10 @@ Emoji 文件来自：[mozilla/twemoji-colr](https://github.com/mozilla/twemoji-c
 ### 2024.5.1
 
 - 字体文件由 .ttf 格式转换为 .woff 与 .woff2 格式，减小体积、提高加载效率，并尝试兼容 Windows11
+
+### 2024.7.9
+
+- 更换 Emoji 字体来源
 
 ### 鸣谢
 

@@ -4,7 +4,7 @@
 
 The font file comes from: [lxgw/LxgwWenkaiGB](https://github.com/lxgw/LxgwWenkaiGB), converted from .ttf format to .woff format
 
-The emoji file comes from:[mozilla/twemoji-colr](https://github.com/mozilla/twemoji-colr)
+The emoji file comes from: [jdecked/twemoji](https://github.com/jdecked/twemoji): https://artefacts.whynothugo.nl/twemoji.ttf
 
 ### Notice
 
