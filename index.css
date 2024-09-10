@@ -1,8 +1,7 @@
 @font-face {
     font-family: "LXGW WenKai GB";
     font-style: normal;
-    src: url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKaiGB-Regular.woff2") format("woff2"),
-    url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKaiGB-Regular.woff") format("woff");
+    src: url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKaiGB-Regular.woff") format("woff");
 }
 
 @font-face {
