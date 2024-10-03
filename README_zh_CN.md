@@ -2,7 +2,7 @@
 
 # 思源笔记 霞鹜文楷字体和 Twitter Emoji 插件
 
-字体文件来自：[lxgw/LxgwWenkaiGB](https://github.com/lxgw/LxgwWenkaiGB)，由 .ttf 格式转换为 .woff 格式
+字体文件来自：[lxgw/LxgwWenkaiGB](https://github.com/lxgw/LxgwWenkaiGB)，由 .ttf 格式[转换](https://cloudconvert.com/ttf-to-woff)为 .woff 格式
 
 Emoji 文件来自：[jdecked/twemoji](https://github.com/jdecked/twemoji)：https://artefacts.whynothugo.nl/twemoji.ttf
 
@@ -11,6 +11,8 @@ Emoji 文件来自：[jdecked/twemoji](https://github.com/jdecked/twemoji)：htt
 本字体按照中国大陆的字形标准修改，仅建议中文使用者使用。
 
 本插件可能与集市中的其他字体或 Emoji 插件不兼容，使用本插件时请禁用其他字体或 Emoji 插件。
+
+表情符号选择器中会出现空位是因为 Emoji 字体暂未支持 [Unicode 16.0](https://github.com/jdecked/twemoji/issues/88)。
 
 ### 2024.5.1
 
@@ -27,6 +29,10 @@ Emoji 文件来自：[jdecked/twemoji](https://github.com/jdecked/twemoji)：htt
 ### 2024.9.10
 
 - 移除 .woff2 格式字体，避免控制台报错
+
+### 2024.10.3
+
+- 更新霞鹜文楷字体到 v1.500 版本
 
 ### 鸣谢
 
