@@ -1,0 +1,29 @@
+/* LXGW WenKai */
+@font-face {
+    font-family: "LXGW WenKai";
+    src: url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKai-1.510/LXGWWenKaiScreen.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "LXGW WenKai";
+    src: url("../../../appearance/fonts/LxgwWenKai-Lite-1.501/LXGWWenKaiLite-Regular.ttf") format("truetype"); /* 思源内置字体 */
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Twemoji */
+@font-face {
+    font-family: "Twemoji";
+    src: url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/Twemoji/Twemoji-15.1.0.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+:root {
+    --b3-font-family: "LXGW WenKai", "Twemoji", "Emojis Additional", "Emojis Reset", BlinkMacSystemFont, Helvetica, "Luxi Sans", "DejaVu Sans", "Hiragino Sans", arial, sans-serif, emojis !important;
+    --b3-font-family-emoji: "Twemoji", "Emojis Additional", emojis !important;
+}
