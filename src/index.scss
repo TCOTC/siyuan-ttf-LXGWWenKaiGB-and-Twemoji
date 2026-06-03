@@ -1,4 +1,11 @@
-/* 霞鹜文楷 GB 屏幕阅读版 */
+/* 霞鹜文楷 GB 屏幕阅读版
+ *
+ * 更新字体后：替换 LXGWWenKai/ 中的文件，需移除与 Twemoji 冲突的字形再构建：
+ *   pip install -r scripts/requirements-fonttools.txt
+ *   pnpm strip-wenkai-glyphs:dry-run  仅预览将删除的码位
+ *   pnpm strip-wenkai-glyphs          就地覆盖，原文件保存为 .bak
+ * 码位列表见 scripts/wenkai-excluded-unicodes.txt
+ */
 @font-face {
   font-family: "LXGW WenKai";
   src: url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKai/LXGWWenKaiGBScreen-1.522.woff") format("woff");

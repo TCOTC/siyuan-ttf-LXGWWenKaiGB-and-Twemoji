@@ -4,6 +4,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const ZipPlugin = require("zip-webpack-plugin");
 
+const FONT_COPY_IGNORE = ["**/*.bak"];
+
 module.exports = (env, argv) => {
     const production = argv.mode === "production";
     const plugins = [
@@ -20,7 +22,11 @@ module.exports = (env, argv) => {
                     {from: "README*.md", to: "./dist/"},
                     {from: "plugin.json", to: "./dist/"},
                     {from: "src/i18n/", to: "./dist/i18n/"},
-                    {from: "LXGWWenKai", to: "./dist/LXGWWenKai"},
+                    {
+                        from: "LXGWWenKai",
+                        to: "./dist/LXGWWenKai",
+                        globOptions: {ignore: FONT_COPY_IGNORE},
+                    },
                     {from: "Twemoji", to: "./dist/Twemoji"},
                 ],
             }),
@@ -40,7 +46,11 @@ module.exports = (env, argv) => {
             new CopyPlugin({
                 patterns: [
                     {from: "src/i18n/", to: "./i18n/"},
-                    {from: "LXGWWenKai", to: "LXGWWenKai"},
+                    {
+                        from: "LXGWWenKai",
+                        to: "LXGWWenKai",
+                        globOptions: {ignore: FONT_COPY_IGNORE},
+                    },
                     {from: "Twemoji", to: "Twemoji"},
                 ],
             }),

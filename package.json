@@ -8,7 +8,9 @@
     "format:check": "dprint check",
     "lint": "eslint . --fix --cache",
     "dev": "webpack --config webpack.config.js --mode development",
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "webpack --config webpack.config.js --mode production",
+    "strip-wenkai-glyphs": "python3 scripts/strip-wenkai-emoji-glyphs.py",
+    "strip-wenkai-glyphs:dry-run": "python3 scripts/strip-wenkai-emoji-glyphs.py --dry-run"
   },
   "keywords": ["font", "Twemoji", "LXGW WenKai"],
   "author": "Jeffrey Chen",

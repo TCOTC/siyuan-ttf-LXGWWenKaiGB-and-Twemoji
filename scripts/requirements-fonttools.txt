@@ -1,0 +1,4 @@
+# strip-wenkai-glyphs 脚本依赖（pip install -r scripts/requirements-fonttools.txt）
+fonttools>=4.47.0
+brotli>=1.0.0
+zopfli>=0.2.0

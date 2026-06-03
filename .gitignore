@@ -8,3 +8,7 @@ package.zip
 index.css
 index.js
 /i18n
+*.woff.bak
+*.woff2.bak
+*.ttf.bak
+*.otf.bak
