@@ -170,7 +170,7 @@ export default class LXGWWenKaiFontPlugin extends Plugin {
                 document.fonts.load('500 16px "LXGW WenKai"', "1");
                 document.fonts.load('300 16px "LXGW WenKai"', "2");
                 if (this.config.emojiFont) {
-                    document.fonts.load('400 16px "Twemoji"', "3");
+                    document.fonts.load('400 16px "Twemoji"', "😀");
                 }
             } catch (_) {}
         }, 0);
