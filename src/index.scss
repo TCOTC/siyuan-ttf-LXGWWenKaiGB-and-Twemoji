@@ -1,0 +1,26 @@
+/* 霞鹜文楷 GB 屏幕阅读版 */
+@font-face {
+  font-family: "LXGW WenKai";
+  src: url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/LXGWWenKai/LXGWWenKaiGBScreen-1.522.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 思源内置霞鹜文楷 Lite，用于更轻的字重 */
+@font-face {
+  font-family: "LXGW WenKai";
+  src: url("../../../appearance/fonts/LxgwWenKai-Lite-1.501/LXGWWenKaiLite-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Twemoji */
+@font-face {
+  font-family: "Twemoji";
+  src: url("../plugins/siyuan-ttf-LXGWWenKaiGB-and-Twemoji/Twemoji/twemoji-colr-17.0.3.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,10 @@
+{
+  "scopeTitle": "LXGW WenKai",
+  "scopeDesc": "Choose where LXGW WenKai is applied",
+  "scopeBoth": "UI and editor",
+  "scopeEditor": "Editor only",
+  "scopeNone": "Disabled",
+  "emojiTitle": "Twemoji",
+  "emojiDesc": "Use Twemoji for emoji characters",
+  "saveFailed": "Failed to save settings"
+}
