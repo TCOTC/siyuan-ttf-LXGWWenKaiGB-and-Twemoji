@@ -3,21 +3,21 @@
   "author": "Jeffrey Chen",
   "url": "https://github.com/TCOTC/siyuan-ttf-LXGWWenKaiGB-and-Twemoji",
   "version": "2.0.0",
-  "minAppVersion": "3.2.0",
+  "minAppVersion": "3.7.0-beta.1",
   "backends": ["all"],
   "frontends": ["all"],
   "disabledInPublish": false,
   "displayName": {
     "default": "LXGW WenKai & Twemoji",
-    "zh_CN": "霞鹜文楷 & Twemoji"
+    "zh-CN": "霞鹜文楷 & Twemoji"
   },
   "description": {
     "default": "Use LXGW WenKai and Twemoji in SiYuan",
-    "zh_CN": "在思源笔记中使用霞鹜文楷和 Twemoji"
+    "zh-CN": "在思源笔记中使用霞鹜文楷和 Twemoji"
   },
   "readme": {
     "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "zh-CN": "README.zh-CN.md"
   },
   "funding": {
     "custom": ["https://mytemos.com/"]
