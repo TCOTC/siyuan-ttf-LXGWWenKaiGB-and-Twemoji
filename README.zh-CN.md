@@ -1,4 +1,4 @@
-> 近期更新：霞鹜文楷从 v1.510 升级到 v1.522 并更换为 GB 屏幕阅读版；Twemoji 从 v15.1.0 升级到 v17.0.3 并更换为 COLRv1 字体文件
+> 近期更新：Twemoji 更换为 COLRv0 字体文件以兼容 WebKit
 
 # 霞鹜文楷 & Twemoji
 

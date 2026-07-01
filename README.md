@@ -1,4 +1,4 @@
-> Recent update: LXGW WenKai upgraded from v1.510 to v1.522 and switched to the GB Screen Reading edition; Twemoji upgraded from v15.1.0 to v17.0.3 and switched to a COLRv1 font file
+> Recent update: Twemoji switched to a COLRv0 font file for WebKit compatibility
 
 # LXGW WenKai and Twemoji
 
