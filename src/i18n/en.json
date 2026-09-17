@@ -1,6 +1,6 @@
 {
   "scopeTitle": "LXGW WenKai",
-  "scopeDesc": "Choose where LXGW WenKai is applied",
+  "scopeDesc": "Choose where LXGW WenKai is applied, ignoring fonts set in SiYuan Settings",
   "scopeBoth": "UI and editor",
   "scopeEditor": "Editor only",
   "scopeNone": "Disabled",
