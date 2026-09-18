@@ -10,6 +10,7 @@ Twemoji font file sourced from: [TCOTC/twemoji-colr](https://github.com/TCOTC/tw
 
 - This plugin may be incompatible with other font or Emoji plugins in the marketplace. Please disable other font or Emoji plugins when using this one.
 - LXGW WenKai takes priority over the global default font and editor fonts selected in Settings - Appearance.
+- With the "UI only" scope, only the UI text is affected, and the editor and documents keep their original fonts.
 - With the "Editor only" scope, only the editor is affected and the UI keeps its original fonts.
 - The font weight is pinned to 500, ignoring the weights of the fonts selected in Settings; bold text and headings keep their own weights.
 - This plugin only includes GB-edition font files, which primarily use mainland standard glyphs.
