@@ -1,5 +1,3 @@
-> Recent update: support for the font configuration changes in SiYuan v3.8.2 and v3.8.3; Twemoji switched to a COLRv0 font file for WebKit compatibility
-
 # LXGW WenKai and Twemoji
 
 Font files sourced from: [lxgw/LxgwWenkaiGB-Lite](https://github.com/lxgw/LxgwWenkaiGB-Lite) and [lxgw/LxgwWenKai-Screen](https://github.com/lxgw/LxgwWenKai-Screen) (GB Screen edition). The latter was converted from .ttf to .woff format using [CloudConvert](https://cloudconvert.com/ttf-to-woff).

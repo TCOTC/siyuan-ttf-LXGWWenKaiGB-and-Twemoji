@@ -1,5 +1,3 @@
-> 近期更新：适配 SiYuan v3.8.2、v3.8.3 的字体配置功能变更；Twemoji 更换为 COLRv0 字体文件以兼容 WebKit
-
 # 霞鹜文楷 & Twemoji
 
 字体文件来自：[lxgw/LxgwWenkaiGB-Lite](https://github.com/lxgw/LxgwWenkaiGB-Lite) 和 [lxgw/LxgwWenKai-Screen](https://github.com/lxgw/LxgwWenKai-Screen)（GB 屏幕阅读版），后者由 .ttf 格式[转换](https://cloudconvert.com/ttf-to-woff)为 .woff 格式

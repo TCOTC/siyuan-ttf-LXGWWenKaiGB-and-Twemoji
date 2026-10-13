@@ -14,10 +14,13 @@
   font-display: swap;
 }
 
-/* 思源内置霞鹜文楷 Lite，用于更轻的字重 */
+/* 思源内置霞鹜文楷，用于更轻的字重。
+ * SiYuan 3.8.5 起内置字体升级为 GB Lite 1.521 且旧的 Lite 目录由共享内核统一清理，
+ * 旧路径在 3.8.5 及以上会映射到新资源，保留在末尾作为 3.8.4 及以下版本的回退 */
 @font-face {
   font-family: "LXGW WenKai";
-  src: url("../../../appearance/fonts/LxgwWenKai-Lite-1.501/LXGWWenKaiLite-Regular.ttf") format("truetype");
+  src: url("../../../appearance/fonts/LxgwWenKaiGB-Lite-1.521/LXGWWenKaiGBLite-Regular.ttf") format("truetype"),
+    url("../../../appearance/fonts/LxgwWenKai-Lite-1.501/LXGWWenKaiLite-Regular.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;

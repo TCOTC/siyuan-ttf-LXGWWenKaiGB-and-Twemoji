@@ -29,7 +29,7 @@ const UI_FONT_SELECTORS = "body, button, input, select, textarea, .b3-tooltips::
 // .b3-typography--default 用于渲染界面内的富文本，按界面文字处理，不含在内
 const EDITOR_WEIGHT_SELECTORS = ".b3-typography:not(.b3-typography--default), .protyle-wysiwyg, .protyle-title, .table__cell-rich";
 
-// 霞鹜文楷 GB 屏幕阅读版的字重为 500，SiYuan 内置的 Lite 版为 300；
+// 霞鹜文楷 GB 屏幕阅读版的字重为 500，SiYuan 内置的 GB Lite 版为 300；
 // 沿用「设置 - 外观」中选择的字体字重会导致合成加粗
 const DEFAULT_FONT_WEIGHT = 500;
 
@@ -68,10 +68,6 @@ export default class LXGWWenKaiFontPlugin extends Plugin {
             console.error(message);
         });
         console.log(this.displayName, "uninstalled");
-    }
-
-    openSetting() {
-        this.setting.open(this.displayName);
     }
 
     private async loadConfig() {
