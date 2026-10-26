@@ -75,32 +75,40 @@ def subset_font(
     TTFont,
 ) -> tuple[int, int]:
     font = TTFont(input_path, lazy=True)
-    present = collect_unicodes(font)
-    removed = present & excluded
-    keep = present - excluded
+    try:
+        present = collect_unicodes(font)
+        removed = present & excluded
+        keep = present - excluded
 
-    if not removed:
-        print(f"  跳过（无冲突字形）: {input_path.name}")
-        if output_path != input_path:
-            shutil.copy2(input_path, output_path)
-        return 0, 0
+        if not removed:
+            print(f"  跳过（无冲突字形）: {input_path.name}")
+            if output_path != input_path:
+                shutil.copy2(input_path, output_path)
+            return 0, 0
 
-    options = Options()
-    options.layout_features = ["*"]
-    options.name_Legacy = True
-    options.name_IDs = ["*"]
-    options.recalc_bounds = True
-    options.recalc_timestamp = True
-    flavor = flavor_for_suffix(input_path.suffix.lower())
-    if flavor:
-        options.flavor = flavor
+        options = Options()
+        options.layout_features = ["*"]
+        options.name_Legacy = True
+        options.name_IDs = ["*"]
+        options.recalc_bounds = True
+        options.recalc_timestamp = True
+        flavor = flavor_for_suffix(input_path.suffix.lower())
+        if flavor:
+            options.flavor = flavor
 
-    subsetter = Subsetter(options=options)
-    subsetter.populate(unicodes=keep)
-    subsetter.subset(font)
-    font.save(output_path)
+        subsetter = Subsetter(options=options)
+        subsetter.populate(unicodes=keep)
+        subsetter.subset(font)
+        font.save(output_path)
+    finally:
+        # Windows 上未关闭的文件句柄会阻止随后替换文件
+        font.close()
 
-    verify = collect_unicodes(TTFont(output_path, lazy=True))
+    verify_font = TTFont(output_path, lazy=True)
+    try:
+        verify = collect_unicodes(verify_font)
+    finally:
+        verify_font.close()
     still = verify & excluded
     if still:
         hexes = ", ".join(f"U+{cp:04X}" for cp in sorted(still))
@@ -166,7 +174,10 @@ def main() -> int:
         Options, Subsetter, TTFont = _import_fonttools()
         for path in fonts:
             font = TTFont(path, lazy=True)
-            removed = collect_unicodes(font) & excluded
+            try:
+                removed = collect_unicodes(font) & excluded
+            finally:
+                font.close()
             if removed:
                 print(
                     f"  [dry-run] {path.name}: 将移除 "
